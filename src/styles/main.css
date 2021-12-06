@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Poiret+One|Proza+Libre");
+
+/* COLORS */
+.green {
+  color: green;
+}
+.bg-green {
+  background-color: green;
+}
+
+/* DEFAULTS */
+:root {
+  font-size: 16pt;
+}
+* {
+  font-family: "Proza Libre", sans-serif;
+  color: #333;
+  font-size: 1rem;
+}
+body {
+  background-color: #9496a6;
+}
+body,
+html {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: "Poiret One", cursive;
+}
+
+/* TREE STYLING */
+
+/*navbar*/
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #222;
+}
+
+.bg-dark {
+  background-color: #222;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background: url(../images/jumbo.jpg) no-repeat left top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+}
+p,
+p * {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.jumbotron h1 {
+  color: #ddd;
+}
+.jumbotron p {
+  color: #ddd;
+}
+.tickets {
+  font-weight: bold;
+  background-color: #ffe46c;
+  color: initial;
+}
+
+.upcoming-header {
+  border-color: #333;
+}
+
+.about-section {
+  background-image: url(../images/about-spotlight.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+}
+.about-section * {
+  color: #eee;
+}
+/*foorter*/
+footer {
+  background-color: #ccc;
+}
+
+/*.media-object{max-width: none;}*/
+.show-title {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: larger;
+  font-family: "Poiret One", cursive;
+}
+.menu-item a {
+  font-size: smaller;
+}
+.dropdown-toggle {
+  color: #ddd;
+}
+/*.show-thumb{ max-width: 350px; }*/
+
+/*Show page*/
+
+.show-image-main {
+  max-height: 500px;
+}
+.show-page {
+  background-color: #333;
+  color: #eee;
+  /* background-image:url(../img/lightbulbs2.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.show-page .container {
+  background-color: rgba(17, 17, 17, 0.78);
+  min-height: 700px;
+}
+
+.show-page p > *,
+.show-page p,
+.show-page h4,
+.show-page h1,
+.show-page h3,
+.show-page h2 {
+  color: #eee;
+}
+
+.show-creators {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.show-cast * {
+  color: #eee;
+}
+
+.show-ensemble-cast p {
+  font-size: smaller;
+}
+
+.donate {
+  background-color: #2727cf;
+}
+
+.ticket-banner {
+  background-color: #333;
+  color: #eee;
+  /* background-image:url(../img/tickets-garret.jpg); */
+  background-position: bottom;
+  margin-top: 17px;
+  background-size: cover;
+}
+
+/*  @media only screen and (min-width : 768px) {
+
+   
+
+	.show-page{background-size: auto;}
+	.about-section{background-size: auto;}
+	.jumbotron{background-size: auto;
+				
+}*/
+
+.hyperlinkStyle {
+  color: #265986;
+  font-weight: bold;
+}
